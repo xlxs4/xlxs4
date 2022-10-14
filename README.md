@@ -1,6 +1,10 @@
 ### Hi there 👋
 
+[![@xlxs4's Holopin board](https://holopin.me/xlxs4)](https://holopin.io/@xlxs4)
+
 https://xlxs4.github.io/
+
+https://acubesat.spacedot.gr/
 
 <!--
 **xlxs4/xlxs4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
