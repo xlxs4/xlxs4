@@ -14,10 +14,12 @@ I sporadically pile letters in https://xlxs4.github.io/
 
 &nbsp;
 
+<p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/acubesat-model-white.png">
   <img alt="A render of the AcubeSAT nanosatellite." src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/acubesat-model-black.png" align="left" style="width:20%;height:20%;">
 </picture>
+</p>
   
 Sometimes I'm trying to send this nanosatellite in space.
 
