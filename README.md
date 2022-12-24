@@ -12,20 +12,36 @@ I sporadically pile letters in https://xlxs4.github.io/
   <img align="center" src="https://github-readme-stats-xlxs4.vercel.app/api/top-langs/?username=xlxs4&hide=html,javascript,c,css,matlab&hide_title=true&layout=compact&langs_count=6&theme=buefy" />
 </a>
 
+&nbsp;
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/acubesat-model-black.png">
-  <img alt="A render of the AcubeSAT nanosatellite." src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/acubesat-model-white.png" align="left">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/acubesat-model-white.png">
+  <img alt="A render of the AcubeSAT nanosatellite." src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/acubesat-model-black.png" align="left" style="width:20%;height:20%;">
 </picture>
   
-Sometimes I'm trying to send this nanosatellite in space to see how gene expression changes in yeast cells that are cultured in-orbit.
+Sometimes I'm trying to send this nanosatellite in space.
+
+This will let us know gene expression changes in yeast cells.
+
+The yeast will be cultured in-orbit!
+
+I personally like to call it the "glorified yeast farm" myself.
+
+<br clear="left"/>
+
+&nbsp;
 
 <a href="https://open.spotify.com/user/83zjpodyytr2zojufrnni850b">
     <img src="https://spotify-embed-xlxs4.vercel.app/api?theme=dark&scan=true" alt="Current Spotify Song" width="42%" align="right">
 </a>
 
-That was the last thing I was listening to!
+I've currently started dabbling in BJJ, analog photography and jazz (piano).
+
+I like music a lot — this was *probably* the last thing I was listening to!
 
 <br clear="right"/>
+
+&nbsp;
 
 <a href="https://gitlab.com/xlxs4">
   <img align="right" alt="@xlxs4's GitLab" width="21px" src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/gitlab.png" />
