@@ -1,8 +1,32 @@
-### Hi there 👋
-
 CS Undergrad.
 Likes the Sci part in SciML, might look into the ML more in the future.
-I sporadically pile letters in https://xlxs4.github.io/
+
+```julia
+using Dates
+
+Base.@kwdef struct Orestis
+    job::String = "student"
+    bdate::Int = 2000
+    website::String = "https://xlxs4.github.io/"
+    current_projects::Vector{String}
+end
+
+age(d) = Dates.year(now()) - d.bdate
+Base.summary(d::Orestis) = "Some $(age(d)) year old $(d.job)"
+workson(d::Orestis) = d.current_projects 
+hobbies(::Orestis) = ("BJJ", "analog photography", "piano", "cooking", "programming")
+favorite_project(::Orestis) = "AcubeSAT nanosatellite"
+
+# Begin my description
+me = Orestis(current_projects = [
+  "AcubeSAT", 
+  "ModelingToolkit.jl"
+])
+
+println(summary(me))
+println("works on: $(join(me.current_projects, ", "))")
+println("has hobbies: $(join(hobbies(me), ", "))")
+```
 
 <a href="https://github.com/xlxs4">
   <img align="center" src="https://github-readme-stats-xlxs4.vercel.app/api?username=xlxs4&count_private=true&hide=stars&hide_title=true&show_icons=true&theme=buefy" />
@@ -13,13 +37,17 @@ I sporadically pile letters in https://xlxs4.github.io/
 </a>
 
 &nbsp;
-
-<p>
+<!-- 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/acubesat-model-white.png">
   <img alt="A render of the AcubeSAT nanosatellite." src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/acubesat-model-black.png" align="left" style="width:20%;height:20%;">
+</picture> -->
+
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/acubesat-model-white.png">
+  <img alt="A render of the AcubeSAT nanosatellite." src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/acubesat-model-black.png" align="left" width=20% height=20%>
 </picture>
-</p>
   
 Sometimes I'm trying to send this nanosatellite in space.
 
