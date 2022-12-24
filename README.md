@@ -1,5 +1,8 @@
 ### Hi there 👋
 
+[![GitHub stats](https://github-readme-stats-xlxs4.vercel.app/api?username=xlxs4&count_private=true&hide=stars&hide_title=true&hide_rank=true&show_icons=true&theme=buefy#gh-light-mode-only)](https://xlxs4.github.io/)
+[![GitHub stats](https://github-readme-stats-xlxs4.vercel.app/api?username=xlxs4&count_private=true&hide=stars&hide_title=true&hide_rank=true&show_icons=true&theme=tokyonight#gh-dark-mode-only)](https://xlxs4.github.io/)
+
 [![@xlxs4's Holopin board](https://holopin.me/xlxs4)](https://holopin.io/@xlxs4)
 
 https://xlxs4.github.io/
