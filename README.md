@@ -1,5 +1,18 @@
+<!-- by clydemdelores -->
+<img src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/kanagawa.gif" align="right" width="20%" height="20%">
+
+&nbsp;
+
 CS Undergrad.
-Likes the Sci part in SciML, might look into the ML more in the future.
+Likes the Sci part in SciML.
+
+Might look into the ML more in the future.
+
+Found home in the Julia language.
+
+<br clear="right"/>
+
+&nbsp;
 
 ```julia
 using Dates
@@ -28,6 +41,8 @@ println("works on: $(join(me.current_projects, ", "))")
 println("has hobbies: $(join(hobbies(me), ", "))")
 ```
 
+&nbsp;
+
 <a href="https://github.com/xlxs4">
   <img align="center" src="https://github-readme-stats-xlxs4.vercel.app/api?username=xlxs4&count_private=true&hide=stars&hide_title=true&show_icons=true&theme=buefy" />
 </a>
@@ -37,12 +52,6 @@ println("has hobbies: $(join(hobbies(me), ", "))")
 </a>
 
 &nbsp;
-<!-- 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/acubesat-model-white.png">
-  <img alt="A render of the AcubeSAT nanosatellite." src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/acubesat-model-black.png" align="left" style="width:20%;height:20%;">
-</picture> -->
-
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/acubesat-model-white.png">
