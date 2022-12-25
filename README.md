@@ -65,7 +65,7 @@ println("has hobbies: $(join(hobbies(me), ", "))")
   
 Sometimes I'm trying to send this nanosatellite in space.
 
-This will let us know gene expression changes in yeast cells.
+This will let us know how gene expression changes in yeast cells.
 
 The yeast will be cultured in-orbit!
 
