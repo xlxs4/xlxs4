@@ -69,7 +69,7 @@ This will let us know how gene expression changes in yeast cells.
 
 The yeast will be cultured in-orbit!
 
-I personally like to call it the "glorified yeast farm" myself.
+I personally like to call it the "*glorified yeast farm*" myself 🥕.
 
 <br clear="left"/>
 
@@ -82,6 +82,8 @@ I personally like to call it the "glorified yeast farm" myself.
 I've currently started dabbling in BJJ, analog photography and jazz (piano).
 
 I like music a lot — this was *probably* the last thing I was listening to!
+
+( ☞•́⍛•̀)╭☞
 
 <br clear="right"/>
 
