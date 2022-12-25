@@ -49,7 +49,7 @@ println("has hobbies: $(join(hobbies(me), ", "))")
 &nbsp;
 
 <a href="https://github.com/xlxs4">
-  <img align="center" src="https://github-readme-stats-xlxs4.vercel.app/api?username=xlxs4&count_private=true&hide=stars&hide_title=true&show_icons=true&theme=buefy" />
+  <img align="center" src="https://github-readme-stats-xlxs4.vercel.app/api?username=xlxs4&count_private=true&hide=stars&hide_title=true&hide_rank=true&show_icons=true&theme=buefy" />
 </a>
 &nbsp;
 <a href="https://github.com/xlxs4">
