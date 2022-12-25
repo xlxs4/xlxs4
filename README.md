@@ -4,10 +4,11 @@
 🧊 CS Undergrad.
 Likes the Sci part in SciML.
 Might look into the ML more in the future.
+
 Found home in the Julia language.
 
 I occasionally string sentences together over at https://xlxs4.github.io/.
-You can find the latest reads below:
+Here's some:
 
 <!-- BLOG_START -->
 - [JuliaSim Model Optimizer](https://xlxs4.github.io/notes/juliasim-model-optimizer/index.html) (2022-12-12)
