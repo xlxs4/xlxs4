@@ -1,0 +1,70 @@
+name: Fetch blog posts
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 */6 * * *"
+
+jobs:
+  ci:
+    strategy:
+      fail-fast: true
+      matrix:
+        python-version: ["3.11"]
+        poetry-version: ["1.2.2"] # Poetry is used for project/dependency management.
+        os: [ubuntu-latest]
+        include: # Where pip stores its cache is OS-dependent.
+          - pip-cache-path: ~/.cache
+            os: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
+          fetch-depth: 0 # Otherwise, you will failed to push refs to dest repo.
+      - name: Set up Python 3.11
+        id: setup-python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+        with:
+          version: ${{ matrix.poetry-version }}
+          virtualenvs-create: true
+          virtualenvs-in-project: true # Otherwise the venv will be the same across all OSes.
+          installer-parallel: true
+      - name: Load cached venv
+        id: cached-pip-wheels
+        uses: actions/cache@v3
+        with:
+          path: ${{ matrix.pip-cache-path }}
+          key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }
+      - name: Install dependencies
+        run: poetry install --no-interaction --no-root -E format # https://github.com/python-poetry/poetry/issues/1227
+      - name: Check formatting
+        run: |
+          source $VENV
+          yapf -drp --no-local-style --style "facebook" feed.py
+      - name: Update README.md
+        run: |
+          source $VENV
+          python feed.py
+      - name: Commit README.md
+        run: |
+          timestamp=$(date -u)
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Automated update: ${timestamp} ${GITHUB_SHA}" || echo "No changes to commit"
+      - name: Push README.md
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

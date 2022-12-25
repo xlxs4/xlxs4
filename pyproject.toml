@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "xlxs4-readme"
+version = "0.1.0"
+description = "Glue code for my GitHub README"
+authors = ["Orestis Ousoultzoglou <orousoultzoglou@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "xlxs4_readme"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+feedparser = "^6.0.10"
+
+yapf = { version = "^0.32.0", optional = true }
+toml = { version = "^0.10.2", optional = true }
+
+[tool.poetry.extras]
+format = ["yapf", "toml"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
