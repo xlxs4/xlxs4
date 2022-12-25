@@ -7,7 +7,9 @@ Might look into the ML more in the future.
 Found home in the Julia language.
 
 <!-- BLOG_START -->
-
+- [JuliaSim Model Optimizer](https://xlxs4.github.io/notes/juliasim-model-optimizer/index.html) (2022-12-12)
+- [ESA Design Booster](https://xlxs4.github.io/notes/esa-design-booster/index.html) (2022-11-22)
+- [Second Brain](https://xlxs4.github.io/notes/second-brain/index.html) (2022-09-26)
 <!-- BLOG_END -->
 
 <br clear="right"/>
