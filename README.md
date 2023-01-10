@@ -39,7 +39,8 @@ favorite_project(::Orestis) = "AcubeSAT nanosatellite"
 # Begin my description
 me = Orestis(current_projects = [
   "AcubeSAT", 
-  "ModelingToolkit.jl"
+  "ModelingToolkit.jl",
+  "MysticMenagerie.jl"
 ])
 
 println(summary(me))
