@@ -2,10 +2,8 @@
 <img src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/kanagawa.gif" align="right" width="30%" height="30%">
 
 🧊 CS Undergrad.
-Likes the Sci part in SciML.
-Might look into the ML more in the future.
-
-Found home in the Julia language.
+Knows what to pursue in life
+but also *really* doesn't.
 
 I occasionally string sentences together over at https://xlxs4.github.io/.
 Here's some:
