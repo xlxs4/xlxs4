@@ -2,8 +2,6 @@
 <img src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/kanagawa.gif" align="right" width="30%" height="30%">
 
 🧊 CS Undergrad.
-Knows what to pursue in life
-but also *really* doesn't.
 
 I occasionally string sentences together over at https://xlxs4.github.io/.
 Here's some:
@@ -19,31 +17,11 @@ Here's some:
 &nbsp;
 
 ```julia
-using Dates
-
 Base.@kwdef struct Orestis
-    job::String = "student"
+    job::String = "Research Software Engineer"
     bdate::Int = 2000
     website::String = "https://xlxs4.github.io/"
-    current_projects::Vector{String}
 end
-
-age(d) = Dates.year(now()) - d.bdate
-Base.summary(d::Orestis) = "Some $(age(d)) year old $(d.job)"
-workson(d::Orestis) = d.current_projects 
-hobbies(::Orestis) = ("BJJ", "analog photography", "piano", "cooking", "programming")
-favorite_project(::Orestis) = "AcubeSAT nanosatellite"
-
-# Begin my description
-me = Orestis(current_projects = [
-  "AcubeSAT", 
-  "ModelingToolkit.jl",
-  "MysticMenagerie.jl"
-])
-
-println(summary(me))
-println("works on: $(join(me.current_projects, ", "))")
-println("has hobbies: $(join(hobbies(me), ", "))")
 ```
 
 &nbsp;
