@@ -3,7 +3,7 @@
 
 🧊 CS Undergrad.
 
-I occasionally string sentences together over at https://xlxs4.github.io/.
+I occasionally string sentences together over at https://xlxs4.com/.
 Here's some:
 
 <!-- BLOG_START -->
