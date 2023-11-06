@@ -34,11 +34,15 @@ def fetch_posts(url):
     response.raise_for_status()
     html = response.content
     soup = BeautifulSoup(html, 'html.parser')
+
     def clean_date(date_str):
         match = re.search(r'\d{4}-\d{2}-\d{2}', date_str)
         return match.group(0) if match else "No date"
+
     posts = []
-    for link in soup.find_all('a', attrs={'aria-label': lambda v: v and v.startswith('post link to')}):
+    for link in soup.find_all(
+        'a', attrs={'aria-label': lambda v: v and v.startswith('post link to')}
+    ):
         title = link['aria-label'].replace('post link to ', '')
         url = link['href']
         # Navigate to the parent and find the previous sibling that contains the date
