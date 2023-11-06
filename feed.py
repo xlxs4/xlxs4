@@ -1,8 +1,7 @@
-import feedparser
-import time
 import re
-
 from os import path
+
+import requests
 
 
 def open_readme():
@@ -29,20 +28,20 @@ def modify_readme(readme, text, identifier=''):
     )
 
 
-def fetch_posts(feed):
+def fetch_posts(url):
+    response = requests.get(url)
+    response.raise_for_status()
+    posts_json = response.json()
+
     posts = []
-    feed = feedparser.parse(feed)
-    for entry in feed.entries:
-        title = entry['title']
-        link = entry['link']
-        published = time.strftime('%Y-%m-%d', entry['published_parsed'])
-        posts.append(f"- [{title}]({link}) ({published})")
+    for post in posts_json[-3:]:
+        posts.append(f"- {post['title']}")
     return posts
 
 
 def main():
     n_last_posts = 3
-    posts = fetch_posts("https://xlxs4.github.io/feed.xml")
+    posts = fetch_posts("https://xlxs4.com/index.json")
     last_posts = '\n' + '\n'.join(posts[:n_last_posts]) + '\n'
     original = open_readme()
     updated = modify_readme(original, last_posts, identifier='BLOG')
