@@ -20,7 +20,7 @@ Here's some:
 Base.@kwdef struct Orestis
     job::String = "Research Software Engineer"
     bdate::Int = 2000
-    website::String = "https://xlxs4.github.io/"
+    website::String = "https://xlxs4.com/"
 end
 ```
 
