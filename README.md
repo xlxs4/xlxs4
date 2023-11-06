@@ -7,9 +7,9 @@ I occasionally string sentences together over at https://xlxs4.github.io/.
 Here's some:
 
 <!-- BLOG_START -->
-- [JuliaSim Model Optimizer](https://xlxs4.github.io/notes/juliasim-model-optimizer/index.html) (2022-12-12)
-- [ESA Design Booster](https://xlxs4.github.io/notes/esa-design-booster/index.html) (2022-11-22)
-- [Second Brain](https://xlxs4.github.io/notes/second-brain/index.html) (2022-09-26)
+- Juliasim Model Optimizer
+- Esa Design Booster
+- Second Brain
 <!-- BLOG_END -->
 
 <br clear="right"/>
