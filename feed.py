@@ -57,7 +57,7 @@ def fetch_posts(url):
 
 
 def main():
-    n_last_posts = 3
+    n_last_posts = 5
     posts = fetch_posts("https://xlxs4.com/archives/")
     last_posts = '\n' + '\n'.join(posts[:n_last_posts]) + '\n'
     original = open_readme()
