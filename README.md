@@ -1,5 +1,5 @@
 <!-- by clydemdelores -->
-<img src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/kanagawa.gif" align="right" width="30%" height="30%">
+<img src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/kanagawa.gif" align="right" width="32%" height="32%">
 
 🧊 CS Undergrad.
 
@@ -15,6 +15,69 @@ Here's some:
 <br clear="right"/>
 
 &nbsp;
+<!--
+&nbsp;
+&nbsp;
+&nbsp;
+
+Programming Languages
+
+| Name | Description |
+| ---- | ----------- |
+| [MysticMenagerie.jl](https://github.com/xlxs4/MysticMenagerie.jl) | A C-style tree-walking interpreter with Pratt parsing from scratch |
+| [yordle](https://github.com/xlxs4/yordle) | Tiny Lisp implementation in C. Lisp value types represented with NaN Boxing |
+| [floop](https://github.com/xlxs4/floop) | A minimal lisp-like language implemented in C |
+| [stratagem](https://github.com/xlxs4/stratagem) | A Scheme-like programming language implemented in Haskell |
+| [nim-brainfuck-interpeter](https://github.com/xlxs4/nim-brainfuck-interpreter) | A brainfuck interpreter and transpiler written in Nim |
+
+Exercise solutions
+
+| Name | Description |
+| ---- | ----------- |
+| [sicp-guile](https://github.com/xlxs4/sicp-guile) | Guile Scheme code for "Structure and Interpretation of Computer Programs" (SICP) |
+| [practical-common-lisp](https://github.com/xlxs4/practical-common-lisp) | Common Lisp code for "Practical Common Lisp" by Peter Seibel |
+| [clojure-for-the-brave-and-true](https://github.com/xlxs4/clojure-for-the-brave-and-true) | Clojure code for "Clojure for the Brave and True" by Daniel Higginbotham |
+
+Website
+
+| Name | Description |
+| ---- | ----------- |
+| [startpage](https://github.com/xlxs4/startpage) | Bento-based startpage |
+
+https://github.com/xlxs4/rss-youtube
+
+Scripts
+
+| Name | Description |
+| ---- | ----------- |
+| [loc-spotting-utils](https://github.com/xlxs4/loc-spotting-utils) | A cross-platform GUI to do basic modifications on G-Code |
+| [aflplusplus-util](https://github.com/xlxs4/aflplusplus-util) | A collection of shell scripts to automate fuzzy testing with AFL/AFL++ |
+| [logger](https://github.com/xlxs4/logger) | A small, self-contained C++ logger with minimal overhead |
+
+Models
+
+| Name | Description |
+| ---- | ----------- |
+| ||
+
+https://github.com/xlxs4/bacteria-phage-abm.jl Agent-Based Model of the coevolution dynamics between bacteria and phages, with a focus on environment structure
+https://github.com/xlxs4/modeling-toolkit-exploration A foray into the somewhat charted lush forests of ModelingToolkit.jl
+https://github.com/xlxs4/constraint-based-metabolic-modeling An exploration of using FBA to engineer E. coli's metabolism in Julia
+https://github.com/xlxs4/meta-analysis
+https://github.com/xlxs4/bacteria-phage-montecarlo
+https://github.com/xlxs4/bacteria-phage-abm
+https://github.com/xlxs4/sfi-nonlinear-dynamics
+
+https://github.com/xlxs4/family-tree
+
+https://github.com/xlxs4/r-openblas-ci/blob/main/Dockerfile
+
+https://github.com/xlxs4/aocs-models/tree/main
+
+https://github.com/xlxs4/auth-canteen-menu-fetch/blob/main/canteen
+
+-->
+
 
 ```julia
 Base.@kwdef struct Orestis
