@@ -15,12 +15,13 @@ Here's some:
 <br clear="right"/>
 
 &nbsp;
-<!--
+<!-- 
 &nbsp;
 &nbsp;
 &nbsp;
 
-Programming Languages
+<details>
+<summary>Programming Languages</summary>
 
 | Name | Description |
 | ---- | ----------- |
@@ -30,13 +31,18 @@ Programming Languages
 | [stratagem](https://github.com/xlxs4/stratagem) | A Scheme-like programming language implemented in Haskell |
 | [nim-brainfuck-interpeter](https://github.com/xlxs4/nim-brainfuck-interpreter) | A brainfuck interpreter and transpiler written in Nim |
 
-Exercise solutions
+</details>
+
+<details>
+<summary>Solutions to various books</summary>
 
 | Name | Description |
 | ---- | ----------- |
 | [sicp-guile](https://github.com/xlxs4/sicp-guile) | Guile Scheme code for "Structure and Interpretation of Computer Programs" (SICP) |
 | [practical-common-lisp](https://github.com/xlxs4/practical-common-lisp) | Common Lisp code for "Practical Common Lisp" by Peter Seibel |
 | [clojure-for-the-brave-and-true](https://github.com/xlxs4/clojure-for-the-brave-and-true) | Clojure code for "Clojure for the Brave and True" by Daniel Higginbotham |
+
+</details>
 
 Website
 
@@ -60,24 +66,23 @@ Models
 | ---- | ----------- |
 | ||
 
-https://github.com/xlxs4/bacteria-phage-abm.jl Agent-Based Model of the coevolution dynamics between bacteria and phages, with a focus on environment structure
-https://github.com/xlxs4/modeling-toolkit-exploration A foray into the somewhat charted lush forests of ModelingToolkit.jl
-https://github.com/xlxs4/constraint-based-metabolic-modeling An exploration of using FBA to engineer E. coli's metabolism in Julia
-https://github.com/xlxs4/meta-analysis
-https://github.com/xlxs4/bacteria-phage-montecarlo
-https://github.com/xlxs4/bacteria-phage-abm
-https://github.com/xlxs4/sfi-nonlinear-dynamics
+[bacteria-phage-abm.jl](https://github.com/xlxs4/bacteria-phage-abm.jl) Agent-Based Model of the coevolution dynamics between bacteria and phages, with a focus on environment structure
+[modeling-toolkit-exploration](https://github.com/xlxs4/modeling-toolkit-exploration) A foray into the somewhat charted lush forests of ModelingToolkit.jl
+[constraint-based-metabolic-modeling](https://github.com/xlxs4/constraint-based-metabolic-modeling) An exploration of using FBA to engineer E. coli's metabolism in Julia
+[meta-analysis](https://github.com/xlxs4/meta-analysis) Gene selection for the AcubeSAT nanosatellite in R
+[bacteria-phage-montecarlo](https://github.com/xlxs4/bacteria-phage-montecarlo) A toy MC model studying bacteria-phage coevolution dynamics
+[bacteria-phage-abm](https://github.com/xlxs4/bacteria-phage-abm) An Agent-Based Model simulating the coevolution dynamics between phages and bacteria. Was my essay in the ABM course by SFI 
+[sfi-nonlinear-dynamics](https://github.com/xlxs4/sfi-nonlinear-dynamics) Computational Nonlinear Dynamics, SFI course
 
 https://github.com/xlxs4/family-tree
 
 https://github.com/xlxs4/r-openblas-ci/blob/main/Dockerfile
 
-https://github.com/xlxs4/aocs-models/tree/main
+https://github.com/xlxs4/aocs-models/tree/main/dsmc
 
 https://github.com/xlxs4/auth-canteen-menu-fetch/blob/main/canteen
 
 -->
-
 
 ```julia
 Base.@kwdef struct Orestis
