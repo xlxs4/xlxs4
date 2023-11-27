@@ -64,16 +64,16 @@ end
 &nbsp;
 
 <picture>
-  <img align="center" src="https://github-readme-stats-xlxs4.vercel.app/api?username=xlxs4&count_private=true&hide=stars&hide_title=true&hide_rank=true&show_icons=true&theme=buefy" width=32% height = 32% />
+  <img align="center" src="https://github-readme-stats-xlxs4.vercel.app/api?username=xlxs4&count_private=true&hide=stars&hide_title=true&hide_rank=true&show_icons=true&theme=buefy" width=40% height = 40% />
 </picture>
 &nbsp;
 <picture>
-    <img align="center" src="https://github-readme-stats-xlxs4.vercel.app/api/top-langs/?username=xlxs4&hide=html,javascript,c,css,matlab&hide_title=true&layout=compact&langs_count=6&theme=buefy" width=32% height = 32% />
+    <img align="center" src="https://github-readme-stats-xlxs4.vercel.app/api/top-langs/?username=xlxs4&hide=html,javascript,c,css,matlab&hide_title=true&layout=compact&langs_count=6&theme=buefy" width=40% height = 40% />
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/acubesat-model-white.png">
-  <img alt="A render of the AcubeSAT nanosatellite." src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/acubesat-model-black.png" align="right" width=15% height=15%>
+  <img alt="A render of the AcubeSAT nanosatellite." src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/acubesat-model-black.png" align="right" width=20% height=20%>
 </picture>
 
 &nbsp;
