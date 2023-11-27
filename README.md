@@ -14,14 +14,11 @@ Here's some:
 
 <br clear="right"/>
 
-&nbsp;
-<!-- 
-&nbsp;
-&nbsp;
-&nbsp;
+---
 
-<details>
-<summary>Programming Languages</summary>
+You can find a lot of things here, such as:
+
+${\textsf{\color{lightgreen}Programming Languages}}$
 
 | Name | Description |
 | ---- | ----------- |
@@ -31,58 +28,30 @@ Here's some:
 | [stratagem](https://github.com/xlxs4/stratagem) | A Scheme-like programming language implemented in Haskell |
 | [nim-brainfuck-interpeter](https://github.com/xlxs4/nim-brainfuck-interpreter) | A brainfuck interpreter and transpiler written in Nim |
 
-</details>
-
-<details>
-<summary>Solutions to various books</summary>
-
-| Name | Description |
-| ---- | ----------- |
-| [sicp-guile](https://github.com/xlxs4/sicp-guile) | Guile Scheme code for "Structure and Interpretation of Computer Programs" (SICP) |
-| [practical-common-lisp](https://github.com/xlxs4/practical-common-lisp) | Common Lisp code for "Practical Common Lisp" by Peter Seibel |
-| [clojure-for-the-brave-and-true](https://github.com/xlxs4/clojure-for-the-brave-and-true) | Clojure code for "Clojure for the Brave and True" by Daniel Higginbotham |
-
-</details>
-
-Website
-
-| Name | Description |
-| ---- | ----------- |
-| [startpage](https://github.com/xlxs4/startpage) | Bento-based startpage |
-
-https://github.com/xlxs4/rss-youtube
-
-Scripts
+${\textsf{\color{aquamarine}Fluff}}$
 
 | Name | Description |
 | ---- | ----------- |
 | [loc-spotting-utils](https://github.com/xlxs4/loc-spotting-utils) | A cross-platform GUI to do basic modifications on G-Code |
 | [aflplusplus-util](https://github.com/xlxs4/aflplusplus-util) | A collection of shell scripts to automate fuzzy testing with AFL/AFL++ |
 | [logger](https://github.com/xlxs4/logger) | A small, self-contained C++ logger with minimal overhead |
+| [rss-youtube](https://github.com/xlxs4/rss-youtube) | An RSS reader for a custom YouTube feed |
+| [bacteria-phage-abm.jl](https://github.com/xlxs4/bacteria-phage-abm.jl) | Agent-Based Model of the coevolution dynamics between bacteria and phages, with a focus on environment structure |
+| [meta-analysis](https://github.com/xlxs4/meta-analysis) | Gene selection for the AcubeSAT nanosatellite in R |
+| [family-tree](https://github.com/xlxs4/family-tree) | A Data Structure-focused example on how to implement a family tree in Java. |
 
-Models
+${\textsf{\color{magenta}Solutions to various courses}}$
 
 | Name | Description |
 | ---- | ----------- |
-| ||
+| [sicp-guile](https://github.com/xlxs4/sicp-guile) | Guile Scheme code for "Structure and Interpretation of Computer Programs" (SICP) |
+| [practical-common-lisp](https://github.com/xlxs4/practical-common-lisp) | Common Lisp code for "Practical Common Lisp" by Peter Seibel |
+| [clojure-for-the-brave-and-true](https://github.com/xlxs4/clojure-for-the-brave-and-true) | Clojure code for "Clojure for the Brave and True" by Daniel Higginbotham |
+| [sfi-nonlinear-dynamics](https://github.com/xlxs4/sfi-nonlinear-dynamics) | Computational Nonlinear Dynamics, SFI course |
 
-[bacteria-phage-abm.jl](https://github.com/xlxs4/bacteria-phage-abm.jl) Agent-Based Model of the coevolution dynamics between bacteria and phages, with a focus on environment structure
-[modeling-toolkit-exploration](https://github.com/xlxs4/modeling-toolkit-exploration) A foray into the somewhat charted lush forests of ModelingToolkit.jl
-[constraint-based-metabolic-modeling](https://github.com/xlxs4/constraint-based-metabolic-modeling) An exploration of using FBA to engineer E. coli's metabolism in Julia
-[meta-analysis](https://github.com/xlxs4/meta-analysis) Gene selection for the AcubeSAT nanosatellite in R
-[bacteria-phage-montecarlo](https://github.com/xlxs4/bacteria-phage-montecarlo) A toy MC model studying bacteria-phage coevolution dynamics
-[bacteria-phage-abm](https://github.com/xlxs4/bacteria-phage-abm) An Agent-Based Model simulating the coevolution dynamics between phages and bacteria. Was my essay in the ABM course by SFI 
-[sfi-nonlinear-dynamics](https://github.com/xlxs4/sfi-nonlinear-dynamics) Computational Nonlinear Dynamics, SFI course
+I also like making research software a little bit more reproducible [1](https://github.com/xlxs4/aocs-models/tree/main/dsmc), [2](https://github.com/xlxs4/r-openblas-ci/blob/main/Dockerfile) (containers are cool!), and the first program I wrote was a [shell script](https://github.com/xlxs4/auth-canteen-menu-fetch/blob/main/canteen) to parse the daily menu from the university site 🌯
 
-https://github.com/xlxs4/family-tree
-
-https://github.com/xlxs4/r-openblas-ci/blob/main/Dockerfile
-
-https://github.com/xlxs4/aocs-models/tree/main/dsmc
-
-https://github.com/xlxs4/auth-canteen-menu-fetch/blob/main/canteen
-
--->
+---
 
 ```julia
 Base.@kwdef struct Orestis
@@ -102,24 +71,21 @@ end
   <img align="center" src="https://github-readme-stats-xlxs4.vercel.app/api/top-langs/?username=xlxs4&hide=html,javascript,c,css,matlab&hide_title=true&layout=compact&langs_count=6&theme=buefy" />
 </a>
 
-&nbsp;
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/acubesat-model-white.png">
-  <img alt="A render of the AcubeSAT nanosatellite." src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/acubesat-model-black.png" align="left" width=20% height=20%>
+  <img alt="A render of the AcubeSAT nanosatellite." src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/acubesat-model-black.png" align="right" width=23% height=23%>
 </picture>
-  
+
+&nbsp;
+
 Sometimes I'm trying to send this nanosatellite in space.
-
 This will let us know how gene expression changes in yeast cells.
-
 The yeast will be cultured in-orbit!
-
-I personally like to call it the "*glorified yeast farm*" myself 🥕.
+I'm working on another nanosatellite and on a nanosatellite constellation all communicating with lasers 🔮
 
 <br clear="left"/>
 
-&nbsp;
+---
 
 <a href="https://open.spotify.com/user/83zjpodyytr2zojufrnni850b">
     <img src="https://spotify-embed-xlxs4.vercel.app/api?theme=dark&scan=true" alt="Current Spotify Song" width="42%" align="right">
