@@ -64,11 +64,11 @@ end
 &nbsp;
 
 <picture>
-  <img align="center" src="https://github-readme-stats-xlxs4.vercel.app/api?username=xlxs4&count_private=true&hide=stars&hide_title=true&hide_rank=true&show_icons=true&theme=buefy" width=32% height = 32%/>
+  <img align="center" src="https://github-readme-stats-xlxs4.vercel.app/api?username=xlxs4&count_private=true&hide=stars&hide_title=true&hide_rank=true&show_icons=true&theme=buefy" width=32% height = 32% />
 </picture>
 &nbsp;
 <picture>
-    <img align="center" src="https://github-readme-stats-xlxs4.vercel.app/api/top-langs/?username=xlxs4&hide=html,javascript,c,css,matlab&hide_title=true&layout=compact&langs_count=6&theme=buefy" width=32% height = 32%/>
+    <img align="center" src="https://github-readme-stats-xlxs4.vercel.app/api/top-langs/?username=xlxs4&hide=html,javascript,c,css,matlab&hide_title=true&layout=compact&langs_count=6&theme=buefy" width=32% height = 32% />
 </picture>
 
 <picture>
