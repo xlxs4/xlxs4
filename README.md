@@ -107,6 +107,6 @@ I like music a lot — this was *probably* the last thing I was listening to!
 <a href="https://fosstodon.org/@xlxs4#">
   <img align="right" alt="@xlxs4's Mastodon" width="20px" src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/mastodon.png" />
 </a>
-<a href="https://stallman.org/rms-lifestyle.html#:~:text=I%20feel%20a%20responsibility%20not%20to%20contribute%20to%20the%20pressure%20on%20others.%20I%20hope%20my%20refusal%20to%20wear%20a%20tie%20will%20make%20it%20easier%20for%20you%20to%20refuse%20as%20well.">
+<a href="https://www.linkedin.com/in/orestis-ousoultzoglou/">
   <img align="right" alt="@xlxs4's LinkedIn" width="20px" src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/linkedin.png" />
 </a>
