@@ -3,6 +3,8 @@
 
 🧊 CS Undergrad.
 
+Space Systems Analyst @ EMTech Space, Science Lead in the AcubeSAT space mission, RSE in the Hellenic Space Dawn and DUTHSat-2 space missions.
+
 I occasionally string sentences together over at https://xlxs4.com/.
 Here's some:
 
