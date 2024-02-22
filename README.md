@@ -86,29 +86,3 @@ The yeast will be cultured in-orbit!
 I'm working on another nanosatellite and on a nanosatellite constellation all communicating with lasers 🔮
 
 <br clear="left"/>
-
----
-
-<a href="https://open.spotify.com/user/83zjpodyytr2zojufrnni850b">
-    <img src="https://spotify-embed-xlxs4.vercel.app/api?theme=dark&scan=true" alt="Current Spotify Song" width="42%" align="right">
-</a>
-
-I've currently started dabbling in BJJ, analog photography and jazz (piano).
-
-I like music a lot — this was *probably* the last thing I was listening to!
-
-( ☞•́⍛•̀)╭☞
-
-<br clear="right"/>
-
-&nbsp;
-
-<a href="https://gitlab.com/xlxs4">
-  <img align="right" alt="@xlxs4's GitLab" width="21px" src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/gitlab.png" />
-</a>
-<a href="https://fosstodon.org/@xlxs4#">
-  <img align="right" alt="@xlxs4's Mastodon" width="20px" src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/mastodon.png" />
-</a>
-<a href="https://www.linkedin.com/in/orestis-ousoultzoglou/">
-  <img align="right" alt="@xlxs4's LinkedIn" width="20px" src="https://raw.githubusercontent.com/xlxs4/xlxs4/master/assets/linkedin.png" />
-</a>
